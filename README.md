@@ -51,6 +51,7 @@ Spring Boot, Spring Cloud, Kafka, React를 활용하여 책을 주제로 한 온
 
 ## 구조
 ![image](https://user-images.githubusercontent.com/42633180/135304814-16436f30-7e7e-4556-8222-81b123067313.png)
+![image](https://user-images.githubusercontent.com/42633180/135322718-253108e0-5ad1-445a-8c34-092a6581eb37.png)
 
 ## 환경
 ### 프론트엔드
