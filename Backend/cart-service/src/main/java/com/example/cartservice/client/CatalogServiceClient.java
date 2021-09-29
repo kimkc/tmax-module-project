@@ -1,0 +1,16 @@
+package com.example.cartservice.client;
+
+
+import com.example.cartservice.vo.ResponseCatalog;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+
+//order-service -> 유레카 -> http://127.0.0.1:50002라고 답을 줌, 그럼 http://127.0.0.1:50002/{userId}/orders 직접 호출
+@FeignClient(name = "catalog-service")
+public interface CatalogServiceClient {
+
+    @GetMapping(value= "catalogs/client/{productId}")
+    public ResponseCatalog getCatalog(@PathVariable("productId") Long productId);
+}

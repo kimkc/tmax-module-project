@@ -1,0 +1,67 @@
+{
+  "days" : [
+    { 
+      "id" : 1,
+      "day" : 1
+    },
+    { 
+      "id" : 2,
+      "day" : 2
+    },
+    { 
+      "id" : 3,
+      "day" : 3
+    }
+  ],
+  "words" : [
+    { 
+      "id" : 1,
+      "day" : 1,
+      "eng" : "book",
+      "kor" : "북",
+      "read" : false
+    },
+    { 
+      "id" : 2,
+      "day" : 1,
+      "eng" : "apple",
+      "kor" : "사과",
+      "read" : false
+    },
+    { 
+      "id" : 3,
+      "day" : 1,
+      "eng" : "banana",
+      "kor" : "바나나",
+      "read" : false
+    },
+    { 
+      "id" : 4,
+      "day" : 2,
+      "eng" : "student",
+      "kor" : "학생",
+      "read" : false
+    },
+    { 
+      "id" : 5,
+      "day" : 2,
+      "eng" : "teacher",
+      "kor" : "선생님",
+      "read" : false
+    },
+    { 
+      "id" : 6,
+      "day" : 3,
+      "eng" : "coding",
+      "kor" : "코딩",
+      "read" : false
+    },
+    { 
+      "id" : 7,
+      "day" : 3,
+      "eng" : "study",
+      "kor" : "공부",
+      "read" : false
+    }
+  ]
+}

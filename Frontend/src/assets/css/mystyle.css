@@ -1,0 +1,244 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+section {
+  margin: 120px 0;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* Section id brand */
+
+#brand .brandImg {
+  margin-top: -5px;
+  font-size: 3rem;
+  color: coral;
+}
+
+#brand .brandTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+
+/* Section id deal */
+
+#deal .title h3{
+  font-size: 2rem;
+  color:coral;
+  text-align: center;
+}
+
+#deal ul li {
+  padding-right: 40px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#deal ul li:last-child {
+  padding-right: 0px;
+}
+
+#deal .productImg {
+  width: 100%;
+  height: 350px;
+  background-color: gray;
+}
+
+#deal .productTitle {
+  margin-top:20px;
+  text-align: center;
+  font-size: 1.0rem;
+}
+#deal .productScore {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:darkgoldenrod;
+}
+
+#deal .productPrice {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#deal .productPrice span {
+  padding-left: 20px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* Section id blog */
+#blog .title h3{
+  font-size: 2rem;
+  color:coral;
+  text-align: center;
+}
+
+#blog .blogImg {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+}
+
+#blog .blogTxt {
+  width: 90%;
+  margin: 5%;
+  background-color: white;
+  /*border: thin solid gray;*/
+  position: relative;
+  top: -80px;
+}
+
+#blog .blogTitle {
+  padding-top:20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:darkgoldenrod;
+}
+
+#blog .blogAuth {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.0rem;
+  color: gray;
+}
+
+footer .footer{
+  background-color: gray;
+  height: 400px;
+  padding: 100px 0;
+  color: white;
+}
+
+footer .footerLogo {
+  font-size: 2.0rem;
+  font-weight: bolder;
+  line-height: 0.8;
+}
+
+footer .footerLogo span {
+  font-size: 3.0rem;
+}
+
+footer ul {
+  list-style: none;
+  text-decoration: none;
+  padding:0px;
+}
+
+footer ul li a:link {
+  color:#c5c5c5;
+}
+
+.form-check-input{
+  width: 2rem; height: 2rem;
+}
+
+.cart-shiping-update-wrapper .cart-delete-selected > button,
+.cart-shiping-update-wrapper .cart-select-all> button
+{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  display: inline-block;
+  padding: 18px 63px 17px;
+  text-transform: uppercase;
+  color: #363f4d;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  border-style: none;
+}
+
+.product-wrap .product-img .product-action .pro-cart {
+  font-size: 14px;
+  padding: 0;
+  width: calc(100% - 48px);
+  transition-delay: 0.1s;
+}
+.product-wrap .product-img .product-action .pro-delete {
+  width: 100%;
+  margin: 0;
+  transition-delay: 0.2s;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.select-all-checkbox {
+  width: 2rem; height: 2rem;
+}
+
+.order-table-content table {
+  margin: auto;
+}
+ 
+.payment-option{
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+
+.payment-option li{
+  float: left;
+  margin: 0 5px 0 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.payment-option label,
+.payment-option input{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.payment-option input[type="radio"]{
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.payment-option input[type="radio"]:checked + label,
+.Checked + label{
+  background: yellow;
+}
+
+.payment-option label{
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.payment-option label:hover{
+  background: #ddd;
+}

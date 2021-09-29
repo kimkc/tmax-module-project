@@ -1,0 +1,20 @@
+{
+  "test": [
+    {
+      "id": "4",
+      "name": "Lorem ipsum fashion coat",
+      "image": [
+        "/assets/img/product/fashion/4.jpg",
+        "/assets/img/product/fashion/2.jpg",
+        "/assets/img/product/fashion/5.jpg",
+        "/assets/img/product/fashion/7.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "price": 15.5,
+      "discount": 0,
+      "qty": 1,
+      "color": "blue",
+      "size": "m"
+    },
+  ]
+}
