@@ -35,7 +35,7 @@ Spring Boot, Spring Cloud, Kafka, React를 활용하여 책을 주제로 한 온
 - 설계부터 배포까지 웹 개발 사이클 간접적 경험
 - 협업 능력 향상
   - API 설계서를 통한 프론트엔드와 협업
-  - 이슈 처리 시 동료와 함께 해결
+  - 이슈 발생 시 동료와 함께 해결
   - 일정 관리, 역할 분담, 협업 툴(Github, google spreadsheet, presentation, freedcamp 등)
 - AWS에 컨테이너 기반 Micro Service 배포
 
